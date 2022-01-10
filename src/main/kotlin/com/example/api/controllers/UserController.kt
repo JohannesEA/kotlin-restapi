@@ -34,12 +34,4 @@ class UserController (private val userService: UserService) {
     fun deleteUserById(@PathVariable id: String): ResponseEntity<String> {
         return userService.deleteUser(id);
     }
-
-
-
-
-
-
-
-
 }

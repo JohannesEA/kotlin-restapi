@@ -6,7 +6,7 @@ import java.time.LocalDateTime
 
 @Document("users")
 data class User(
-    @Id val id: String,
+    @Id var id: String,
     var name: String,
     var email: String,
     var phonenumber: String,

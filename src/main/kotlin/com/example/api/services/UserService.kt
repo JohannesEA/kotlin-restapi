@@ -4,7 +4,6 @@ import com.example.api.models.User
 import com.example.api.repositories.UserRepository
 import org.springframework.http.ResponseEntity
 import org.springframework.stereotype.Service
-import java.util.*
 
 @Service
 class UserService (private val userRepository: UserRepository) {
@@ -23,25 +22,14 @@ class UserService (private val userRepository: UserRepository) {
 
     fun updateUser(id: String, user: User): ResponseEntity<User> {
         var oldUser = userRepository.findUserById(id);
-
-        if (user.name !== ""){
+            println(oldUser.toString())
+            user.id = id
             oldUser.name = user.name;
-        }
-        if (user.email !== ""){
             oldUser.email = user.email;
-        }
-        if (user.phonenumber !== ""){
             oldUser.phonenumber = user.phonenumber;
-        }
-        if (user.image !== ""){
             oldUser.image = user.image;
-        }
-        if (user.password !== ""){
             oldUser.password = user.password;
-        }
-        if (user.title !== ""){
             oldUser.title = user.title;
-        }
         return ResponseEntity.ok(userRepository.save(user));
     }
 
