@@ -1,3 +1,5 @@
 server:
+#  main:
+#    allow-bean-definition-overriding: true
   error:
     include-message: always

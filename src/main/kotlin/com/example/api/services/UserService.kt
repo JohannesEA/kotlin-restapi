@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service
 @Service
 class UserService (private val userRepository: UserRepository) {
 
+
     fun findAllUsers(): ResponseEntity<List<User>> {
          return ResponseEntity.ok(userRepository.findAll());
     }

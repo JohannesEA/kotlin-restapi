@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.api.ShopApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-11T15:28:33" hostname="Johanness-MacBook-Air.local" time="0.095">
+  <properties/>
+  <testcase name="generatesJWRs()" classname="com.example.api.ShopApplicationTests" time="0.095"/>
+  <system-out><![CDATA[V7JIseNeWLnO9BvQjEJ7tE/p5GGFg1qo44SJ4IBF9p0=
+z4Ye0bu+QhP//vcw6QWuI802Z1uM+4rpAt8LcFJqfV0=
+SnjLGCnoT92RgjGCUa1z0JfzUdZ5y9NricAnuhr2DjA=
+9RitiK2s+4UFSx2+XIgzb414mKx7xp4lW5KzWlXE8gU=
+yHNi2m1NS/IeBl6cOB+qrn9M52/AxMLAxvZePmHK73k=
+8o7HwCfPM9a9g4PHR/UTxWCMm3u+Q5StG3dpz89D+NQ=
+STFqCl2I2hI17mTvZYqPbug+d5n0mqdh6LU2/mCIgoM=
+nD7y8Xp/LlN/7HmMwvRV27JjY03UHStWVe314pjFXAU=
+5KKqXOkwHRS8B0oIvPD/ppZxBVLHGhkd5hg+5fsdU3A=
+WLSPnC2RPDahuuBFQ+89L4Izms37rOyGGrMRWEjFpAo=
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
